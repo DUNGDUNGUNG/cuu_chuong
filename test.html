@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bảng cửu chương</title>
+</head>
+<body>
+<h2>bảng cửu chương</h2>
+<script>
+    let a,b,sss;
+    sss="<table border='1'>";
+    for (a=1;a<=10;a++){
+        sss+="<tr>";
+        for (b=2;b<10;b++){
+            sss+="<td>" + b + "x" + a + "=" + a * b + "</td>";
+
+        }
+        sss+="</tr>";
+    }
+    sss+="</table>";
+    document.write(sss)
+</script>
+</body>
+</html>
